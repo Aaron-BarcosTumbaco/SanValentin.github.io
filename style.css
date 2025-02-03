@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    color: white;
+    font-size: 24px;    
+}
+
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+fieldset{
+    text-align: center;
+    width: 750px;
+    border-radius: 24px;
+}
+
+fieldset button{
+    color: black;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+legend img{
+    margin-top: 25px;
+    width: 100px;
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.botones button:first-child{
+    background-color: rgb(45, 202, 45);
+}
+
+.botones button:nth-child(2) {
+    background-color: rgb(240, 70, 98);
+}
+
+.botones button:first-child:hover{
+    background-color: rgb(16, 63, 16);
+    color: white;
+}
+
+.botones button:nth-child(2):hover {
+    background-color: rgb(122, 21, 38);
+    color: white;
+}
